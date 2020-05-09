@@ -1,2 +1,2 @@
 # getocidisks
-Get disks of the instances
+Get disks of the instances.
