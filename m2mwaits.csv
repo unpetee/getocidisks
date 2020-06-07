@@ -1,29 +1,4 @@
 "INST_ID","BEGIN_SNAP","Event","Time"
-1,"20/07/2015 09:15","DB CPU",2031.38
-1,"20/07/2015 09:15","log file sync",1189.73
-1,"20/07/2015 09:15","gc cr block 2-way",92.81
-1,"20/07/2015 09:15","enq: TX - row lock contention",14.61
-1,"20/07/2015 09:15","gc current block busy",11.62
-1,"20/07/2015 12:00","DB CPU",2354.51
-1,"20/07/2015 12:00","log file sync",1058.91
-1,"20/07/2015 12:00","gc cr block 2-way",100.01
-1,"20/07/2015 12:00","enq: TX - row lock contention",15.39
-1,"20/07/2015 12:00","gc current block busy",14.43
-1,"20/07/2015 13:00","DB CPU",2261.18
-1,"20/07/2015 13:00","log file sync",1055.9
-1,"20/07/2015 13:00","gc cr block 2-way",103.33
-1,"20/07/2015 13:00","enq: TX - row lock contention",18.56
-1,"20/07/2015 13:00","gc current block busy",14.12
-1,"20/07/2015 14:00","DB CPU",2330.92
-1,"20/07/2015 14:00","log file sync",1002.65
-1,"20/07/2015 14:00","gc cr block 2-way",98.64
-1,"20/07/2015 14:00","gc current block busy",14.9
-1,"20/07/2015 14:00","enq: TX - row lock contention",10.33
-1,"20/07/2015 15:00","DB CPU",263.28
-1,"20/07/2015 15:00","log file sync",122.79
-1,"20/07/2015 15:00","gc cr block 2-way",11.79
-1,"20/07/2015 15:00","enq: TX - row lock contention",1.04
-1,"20/07/2015 15:00","gc current block busy",.49
 1,"08/05/2020 00:00","DB CPU",25164.31
 1,"08/05/2020 00:00","log file sync",7188.56
 1,"08/05/2020 00:00","enq: TX - row lock contention",2033
