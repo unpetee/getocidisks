@@ -1,54 +1,3 @@
-SQL> select
-  2    inst_id ,
-  3   begin_snap ,
-  4   event_name "Event",
-  5   time_waited "Time"
-  6  from (
-  7  select
-  8    inst_id,
-  9    snap_id, to_char(begin_snap, 'dd/mm/yyyy hh24:mi') begin_snap,
- 10    to_char(end_snap, 'hh24:mi') end_snap,
- 11    event_name,
- 12    wait_class,
- 13    total_waits,
- 14    time_waited,
- 15    dense_rank() over (partition by inst_id, snap_id order by time_waited desc)-1 wait_rank,
- 16    max(time_waited) over (partition by inst_id, snap_id) db_time
- 17  from (
- 18  select
- 19    s.instance_number inst_id,
- 20    s.snap_id,
- 21    s.begin_interval_time begin_snap,
- 22    s.end_interval_time end_snap,
- 23    event_name,
- 24    wait_class,
- 25    total_waits-lag(total_waits, 1, total_waits) over
- 26     (partition by s.startup_time, s.instance_number, stats.event_name order by s.snap_id) total_waits,
- 27    time_waited-lag(time_waited, 1, time_waited) over
- 28     (partition by s.startup_time, s.instance_number, stats.event_name order by s.snap_id) time_waited,
- 29    min(s.snap_id) over (partition by s.startup_time, s.instance_number, stats.event_name) min_snap_id
- 30  from (
- 31   select dbid, instance_number, snap_id, event_name, wait_class, total_waits_fg total_waits, round(time_waited_micro_fg/1000000, 2) time_waited
- 32    from dba_hist_system_event
- 33    where wait_class not in ('Idle', 'System I/O')
- 34   union all
- 35   select dbid, instance_number, snap_id, stat_name event_name, null wait_class, null total_waits, round(value/1000000, 2) time_waited
- 36    from dba_hist_sys_time_model
- 37    where stat_name in ('DB CPU', 'DB time')
- 38  ) stats, dba_hist_snapshot s
- 39   where stats.instance_number=s.instance_number
- 40    and stats.snap_id=s.snap_id
- 41    and stats.dbid=s.dbid
- 42   -- and s.dbid=3870213301
- 43    and s.instance_number=1
- 44   -- and stats.snap_id between 190 and 195
- 45  ) where snap_id > min_snap_id and nvl(total_waits,1) > 0
- 46  ) where
- 47  event_name in ('enq: TX - row lock contention','DB CPU','log file sync','gc current block busy','gc cr block 2-way')
- 48  --event_name!='DB time'
- 49   and wait_rank <= 50
- 50  order by inst_id, snap_id;
-
 "INST_ID","BEGIN_SNAP","Event","Time"
 1,"20/07/2015 09:15","DB CPU",2031.38
 1,"20/07/2015 09:15","log file sync",1189.73
@@ -3725,4 +3674,3 @@ SQL> select
 1,"07/06/2020 09:00","gc cr block 2-way",1337.26
 1,"07/06/2020 09:00","enq: TX - row lock contention",576.79
 1,"07/06/2020 09:00","gc current block busy",464.24
-SQL> exit
