@@ -1,4 +1,3 @@
-
 "INST_ID","BEGIN_SNAP","Event","Time"
 1,"24/10/2020 23:00","DB CPU",43604.63
 1,"24/10/2020 23:00","log file sync",8123.38
@@ -3685,4 +3684,3 @@
 1,"24/11/2020 11:00","gc cr block 2-way",1596.86
 1,"24/11/2020 11:00","gc current block busy",829.82
 1,"24/11/2020 11:00","enq: TX - row lock contention",192.2
-SQL> @m2mrmanelap.sql
