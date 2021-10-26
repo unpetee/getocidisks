@@ -1,3 +1,5 @@
+
+"INST_ID","BEGIN_SNAP","Event","Time"
 1,"26/09/2021 00:00","DB CPU",34294.97
 1,"26/09/2021 00:00","enq: TX - row lock contention",10969.04
 1,"26/09/2021 00:00","log file sync",4784.22
