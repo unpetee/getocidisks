@@ -1,0 +1,2 @@
+{"customer":"SmartM2M","date":"20211220060203","total_dbs":"1","failed_dbs":"0","successful_dbs":"1","unreachable_dbs":"0",
+"db_detail":[{"CUSTOMER":"SmartM2M","HOSTNAME":"coresup2dbadm02.om.dsn.inet","DBNAME":"COREM2M","STATUS":"ok","TABLESPACES":"ok","DATAFILES":"ok","ASM":"ok","INVALID_OBJ":"warning","JOBS":"ok","RMAN_LAST_DAY":"ok","ORA_ERRORS_LAST_DAY":"ok","FRA_STATUS":"ok","DATAGUARD_STATUS":"ok"}]}
