@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <script type="text/javascript" src="js/cambiarPestanna.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">Informe M2M</div>
+        <div id="pestanas">
+            <ul id=lista>
+                <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Estado General</a></li>
+                <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Jupyter Notebook</a></li>
+                <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Maquina</a></li>
+            </ul>
+        </div>
+
+        <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+
+        <div id="contenidopestanas">
+            <div id="cpestana1">
+<h3 class=text2BIG> 1. Estado General</h3>
+<iframe src="SmartM2M_HC_summary_20211220060203.html" style="border:none;" width=1380 height=450 title="description"></iframe>
+</a>
+<h3 class=textBIG>
+Resumen:
+</h3>
+<textarea class=textSmall title=Resumen name="textarea" rows="1" cols="150" style="border:none;">
+Todos los servicios se encuetran OK. Los objetos inválidos de los esquemas M2M deberían revisarse por desarrollo.
+</textarea>
+            </div>
+            <div id="cpestana2">
+<h3 class=text2BIG> 1. Estado General</h3>
+<iframe src="m2mjupyter.html" style="border:none;" width=1380 height=450 title="description"></iframe>
+</a>
+<h3 class=textBIG>
+Resumen:
+</h3>
+<textarea class=textSmall title=Resumen name="textarea" rows="1" cols="150" style="border:none;">
+Todos los servicios se encuetran OK. Los objetos inválidos de los esquemas M2M deberían revisarse por desarrollo.
+</textarea>
+            </div>
+            <div id="cpestana3">
+<h3 class=text2BIG> 1. Estado General</h3>
+<iframe src="cpu.html" style="border:none;" width=1380 height=450 title="description"></iframe>
+</a>
+<h3 class=textBIG>
+Resumen:
+</h3>
+<textarea class=textSmall title=Resumen name="textarea" rows="1" cols="150" style="border:none;">
+Todos los servicios se encuetran OK. Los objetos inválidos de los esquemas M2M deberían revisarse por desarrollo.
+</textarea>
+            </div>
+</div>
+</body>
+</html>
+</pre>
