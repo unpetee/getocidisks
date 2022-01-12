@@ -1,6 +1,4 @@
-SQL> select sysdate, t.tablespace_name, sum(t.bytes/1024/1024/1024)GB_TOTAL, sum(f.bytes/1024/1024/1024)GB_LIBRES
-  2  from dba_data_files t, dba_free_space f
-  3  where t.tablespace_name=f.tablespace_name group by t.tablespace_name;
+SYSDATE,TABLESPACE_NAME,TOTAL,FREE
 "12/01/2022","SYSTEM",4536,187.128662
 "12/01/2022","UNDOTBS02",242520,367.53418
 "12/01/2022","SYSAUX",67275,212.194214
@@ -13,4 +11,3 @@ SQL> select sysdate, t.tablespace_name, sum(t.bytes/1024/1024/1024)GB_TOTAL, sum
 "12/01/2022","KITE_DATA",1200,95.9538574
 "12/01/2022","SOPORTE",.004882813,.00378418
 "12/01/2022","HISTO_INDX",16104.375,872.181885
-SQL> spool off
