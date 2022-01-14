@@ -13030,3 +13030,113 @@
 1,"13/01/2022 08:00","enq: TX - row lock contention",2856.91
 1,"13/01/2022 08:00","gc cr block 2-way",812.6
 1,"13/01/2022 08:00","gc current block busy",419.17
+1,"13/01/2022 10:00","DB CPU",17327.24
+1,"13/01/2022 10:00","enq: TX - row lock contention",3532.41
+1,"13/01/2022 10:00","log file sync",3494.79
+1,"13/01/2022 10:00","gc cr block 2-way",775.54
+1,"13/01/2022 10:00","gc current block busy",403.33
+1,"13/01/2022 11:00","DB CPU",16461.85
+1,"13/01/2022 11:00","enq: TX - row lock contention",3428.39
+1,"13/01/2022 11:00","log file sync",3233.08
+1,"13/01/2022 11:00","gc cr block 2-way",672.69
+1,"13/01/2022 11:00","gc current block busy",343.69
+1,"13/01/2022 12:00","DB CPU",15950.97
+1,"13/01/2022 12:00","enq: TX - row lock contention",3356.37
+1,"13/01/2022 12:00","log file sync",2431.45
+1,"13/01/2022 12:00","gc cr block 2-way",546.17
+1,"13/01/2022 12:00","gc current block busy",270.97
+1,"13/01/2022 13:00","DB CPU",19846.77
+1,"13/01/2022 13:00","enq: TX - row lock contention",2949.15
+1,"13/01/2022 13:00","log file sync",2073.19
+1,"13/01/2022 13:00","gc cr block 2-way",430.05
+1,"13/01/2022 13:00","gc current block busy",202.24
+1,"13/01/2022 14:00","DB CPU",20433.84
+1,"13/01/2022 14:00","enq: TX - row lock contention",3408.33
+1,"13/01/2022 14:00","log file sync",2743.31
+1,"13/01/2022 14:00","gc cr block 2-way",549.1
+1,"13/01/2022 14:00","gc current block busy",230.66
+1,"13/01/2022 15:00","DB CPU",22283.9
+1,"13/01/2022 15:00","enq: TX - row lock contention",6584.45
+1,"13/01/2022 15:00","log file sync",2839.48
+1,"13/01/2022 15:00","gc cr block 2-way",681.16
+1,"13/01/2022 15:00","gc current block busy",356.76
+1,"13/01/2022 16:00","DB CPU",25229.35
+1,"13/01/2022 16:00","enq: TX - row lock contention",5791.02
+1,"13/01/2022 16:00","log file sync",2934.62
+1,"13/01/2022 16:00","gc cr block 2-way",581.89
+1,"13/01/2022 16:00","gc current block busy",260.87
+1,"13/01/2022 17:00","DB CPU",23796.95
+1,"13/01/2022 17:00","enq: TX - row lock contention",5873.49
+1,"13/01/2022 17:00","log file sync",2912.47
+1,"13/01/2022 17:00","gc cr block 2-way",572.98
+1,"13/01/2022 17:00","gc current block busy",256.11
+1,"13/01/2022 18:00","DB CPU",21900.18
+1,"13/01/2022 18:00","enq: TX - row lock contention",6971.81
+1,"13/01/2022 18:00","log file sync",2785.02
+1,"13/01/2022 18:00","gc cr block 2-way",568.2
+1,"13/01/2022 18:00","gc current block busy",257.46
+1,"13/01/2022 19:00","DB CPU",22545.94
+1,"13/01/2022 19:00","enq: TX - row lock contention",7105.05
+1,"13/01/2022 19:00","log file sync",2921.34
+1,"13/01/2022 19:00","gc cr block 2-way",575.42
+1,"13/01/2022 19:00","gc current block busy",261.7
+1,"13/01/2022 20:00","DB CPU",19386.14
+1,"13/01/2022 20:00","enq: TX - row lock contention",7799.2
+1,"13/01/2022 20:00","log file sync",2777.6
+1,"13/01/2022 20:00","gc cr block 2-way",565.52
+1,"13/01/2022 20:00","gc current block busy",257.28
+1,"13/01/2022 21:00","DB CPU",20690.48
+1,"13/01/2022 21:00","enq: TX - row lock contention",8066.82
+1,"13/01/2022 21:00","log file sync",3232.59
+1,"13/01/2022 21:00","gc cr block 2-way",623.22
+1,"13/01/2022 21:00","gc current block busy",293.27
+1,"13/01/2022 22:00","DB CPU",20677.41
+1,"13/01/2022 22:00","enq: TX - row lock contention",5887.01
+1,"13/01/2022 22:00","log file sync",2915.63
+1,"13/01/2022 22:00","gc cr block 2-way",575.78
+1,"13/01/2022 22:00","gc current block busy",258.91
+1,"13/01/2022 23:00","DB CPU",18275.67
+1,"13/01/2022 23:00","enq: TX - row lock contention",5506.44
+1,"13/01/2022 23:00","log file sync",2565.83
+1,"13/01/2022 23:00","gc cr block 2-way",537.15
+1,"13/01/2022 23:00","gc current block busy",241.66
+1,"14/01/2022 00:00","DB CPU",19044.2
+1,"14/01/2022 00:00","enq: TX - row lock contention",6656.88
+1,"14/01/2022 00:00","log file sync",2774.81
+1,"14/01/2022 00:00","gc cr block 2-way",538.41
+1,"14/01/2022 00:00","gc current block busy",250.43
+1,"14/01/2022 01:00","DB CPU",15603.7
+1,"14/01/2022 01:00","enq: TX - row lock contention",5605.53
+1,"14/01/2022 01:00","log file sync",2428.88
+1,"14/01/2022 01:00","gc cr block 2-way",530.41
+1,"14/01/2022 01:00","gc current block busy",228.56
+1,"14/01/2022 02:00","DB CPU",15733.82
+1,"14/01/2022 02:00","enq: TX - row lock contention",5426.31
+1,"14/01/2022 02:00","log file sync",2452.28
+1,"14/01/2022 02:00","gc cr block 2-way",512.93
+1,"14/01/2022 02:00","gc current block busy",222.06
+1,"14/01/2022 03:00","DB CPU",15442.72
+1,"14/01/2022 03:00","enq: TX - row lock contention",4333.1
+1,"14/01/2022 03:00","log file sync",2336.66
+1,"14/01/2022 03:00","gc cr block 2-way",494.28
+1,"14/01/2022 03:00","gc current block busy",210.2
+1,"14/01/2022 04:00","DB CPU",14637.57
+1,"14/01/2022 04:00","enq: TX - row lock contention",2294.82
+1,"14/01/2022 04:00","log file sync",2113.96
+1,"14/01/2022 04:00","gc cr block 2-way",465.78
+1,"14/01/2022 04:00","gc current block busy",199.62
+1,"14/01/2022 05:00","DB CPU",18159.66
+1,"14/01/2022 05:00","log file sync",2270.16
+1,"14/01/2022 05:00","enq: TX - row lock contention",1675.54
+1,"14/01/2022 05:00","gc cr block 2-way",486.02
+1,"14/01/2022 05:00","gc current block busy",203.81
+1,"14/01/2022 06:00","DB CPU",14410.06
+1,"14/01/2022 06:00","enq: TX - row lock contention",2424.29
+1,"14/01/2022 06:00","log file sync",2253.85
+1,"14/01/2022 06:00","gc cr block 2-way",490.95
+1,"14/01/2022 06:00","gc current block busy",206.54
+1,"14/01/2022 07:00","DB CPU",16598.94
+1,"14/01/2022 07:00","log file sync",2209.25
+1,"14/01/2022 07:00","enq: TX - row lock contention",1313.09
+1,"14/01/2022 07:00","gc cr block 2-way",479.34
+1,"14/01/2022 07:00","gc current block busy",192.21
