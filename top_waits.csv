@@ -13140,3 +13140,8 @@
 1,"14/01/2022 07:00","enq: TX - row lock contention",1313.09
 1,"14/01/2022 07:00","gc cr block 2-way",479.34
 1,"14/01/2022 07:00","gc current block busy",192.21
+1,"18/01/2022 10:00","DB CPU",12131.76
+1,"18/01/2022 10:00","enq: TX - row lock contention",1113.52
+1,"18/01/2022 10:00","log file sync",850.46
+1,"18/01/2022 10:00","gc cr block 2-way",210.44
+1,"18/01/2022 10:00","gc current block busy",98.54
